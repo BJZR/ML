@@ -10,6 +10,6 @@ fn i64 write(i32 fd, ptr i8 buf, i64 len) {
 fn void main(){
   var prt i8 saludo;
   saludo = "hola, mundo!";
-  write(1,saludo,12);
+  write(1,&saludo,12);
 }
 ```
